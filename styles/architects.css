@@ -165,11 +165,38 @@ main > section{
   margin-bottom: 20px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   padding: 30px;
-
 }
+
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
+
+.feature-architect img{
+  width: 100%;
+}
+.footer{
+  width: 70%;
+  margin: 200px auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 25px;
+  background-color: #ac8150;
+}
+
 @media screen and (max-width: 576px){
   .navbar, 
   .nav-links, 
+  .features,
   .teams{
     flex-direction: column;
   }
@@ -187,6 +214,11 @@ main > section{
   .our-features{
     margin-left: 20px;
   }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+ 
 }
 
 
